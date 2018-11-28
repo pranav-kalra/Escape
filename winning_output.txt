@@ -1,70 +1,112 @@
-Winning output text:
-/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/bin/java "-javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=52859:/Applications/IntelliJ IDEA CE.app/Contents/bin" -Dfile.encoding=UTF-8 -classpath /Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/deploy.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/ext/cldrdata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/ext/dnsns.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/ext/jaccess.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/ext/jfxrt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/ext/localedata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/ext/nashorn.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/ext/sunec.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/ext/sunpkcs11.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/ext/zipfs.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/javaws.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/jfxswt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/management-agent.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/plugin.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/lib/ant-javafx.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/lib/dt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/lib/javafx-mx.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/lib/jconsole.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/lib/packager.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/lib/sa-jdi.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/lib/tools.jar:/Users/pranavkalra/IdeaProjects/Escaped/out/production/Escaped Main
-objc[22902]: Class JavaLaunchHelper is implemented in both /Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/bin/java (0x1069444c0) and /Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/libinstrument.dylib (0x1079954e0). One of the two will be used. Which one is undefined.
-The Scoobert Doobert Escape Room
-Uh oh! It looks like we have a mystery in our hands.You(Shaggy), Fred, Daphne, Velma, and Scooby Doo are investigating a mystery in the middle of the woods. There seems to be a ghost around town haunting people.
-You and the gang are somehow in the middle of the woods in front of a large castle.
-go west
-You travel behind the house and you see a window.
-Fred says it is a good idea to go inside. You, with common sense, incessantly object, but Velma tosses a couple Scooby snacks inside and well ya gotta do what ya gotta do.
-As soon as everyone walks in, the door slams closed. In the corner of the room, the scarce moonlight illuminates a grandfather clock. It is at the 6 o’clock position. You hear a sharp tick as the minutes hand moves: 30 minutes until who knows what.
-go south
-You see a desk with a photo
-You have 29 turns left
-You go to the desk and you grab the photo
-look photo
-You pick up the photo frame, showing what looks to be a married couple. A tall, brunette man wearing a checkered polo
- stands tall next to his cute, blonde wife. But in the background, you see a yellow suit which resembles some kind of creature?
-You have 28 turns left
-"Yikes," mutters Scooby.
-You also see a button.
-press button
-A bookshelf in the corner swings open. It reveals a secret room. 
-You have 27 turns left
-go room
-This isn’t much of a room, but more like a foyer. You see a kitchen, a staircase, and study.
-You have 26 turns left
-“Daphne and I will take the bedroom,” exclaims Fred.
- Gee, it’s not like they take the same place every time. I wonder what they’re gonna do there.
-You and Scooby take the kitchen, naturally, because somehow your gut is like a black hole. Man, some people would 
-kill -- sorry, wrong choice of words --  for that metabolism. Inside, you raid the kitchen. As you feast on what ever dares to 
- exist in the fridge. You have a choice on what to eat: a scrumptious-looking turkey, a thick saucy pizza, or a juicy hamburger.
-eat
-As you munch, you hear an ominous noise.
-You have 25 turns left
-“What was that Scoob?”
-“Ruh Roh Raggy”
-*GULP* “Ya me too buddy. Like Fred? Daphne? Velma? You guys there?”
-A large monster jumps out. You remember that it looks exactly like the one from the photo.
- You and Scooby abandon all of that food and run back to the foyer. Somehow, the entire gang manages to 
-crash into each other.
-“Shaggy, Scooby?” Velma asks.
-“Fred, Daphne?” Shaggy asks.
-“We just saw a monster” Fred says.
-“Us too”.
-“Let’s set a trap for it.”
+/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/bin/java "-javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=63123:/Applications/IntelliJ IDEA CE.app/Contents/bin" -Dfile.encoding=UTF-8 -classpath /Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/deploy.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/ext/cldrdata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/ext/dnsns.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/ext/jaccess.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/ext/jfxrt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/ext/localedata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/ext/nashorn.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/ext/sunec.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/ext/sunpkcs11.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/ext/zipfs.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/javaws.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/jfxswt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/management-agent.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/plugin.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/lib/ant-javafx.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/lib/dt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/lib/javafx-mx.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/lib/jconsole.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/lib/packager.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/lib/sa-jdi.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/lib/tools.jar:/Users/pranavkalra/IdeaProjects/Escaped/out/production/Escaped Main
+objc[29764]: Class JavaLaunchHelper is implemented in both /Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/bin/java (0x107bca4c0) and /Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/libinstrument.dylib (0x107c924e0). One of the two will be used. Which one is undefined.
+ESCAPE ROOM
 
-They make you the bait, because, why not. You are going to have to run and jump the tripwire in 5 seconds. 
-After, you are going to flip the switch for the trap to let the rope catch the bad guy. Tell us “ready” when you are ready.
-ready
-You have 24 turns left
-5
-jump tripwire
-You have 23 turns left
-jump tripwire
-Good job. You missed
-You have 19 turns left
-flip switch
-You have 18 turns left
-Good Going Gang
-“Time to see who this bad guy really is.” Daphne yanks the mask off of its face.
-“RUH ROH”
-“JINKIES”
-“ZOINKS”
-“JEEPERS”
-“F-“This is a PG SHOW!
-It looks like the monster in this real case was Doug Winnie! He has been meddling with the town of APCS1st Per. with his monstrous 1 point quiz. I guess we can call this mystery closed.
+In this level, you can use these verbs: 
+open, light, read, look, get
+In this level, you can use these nouns: 
+door, bench, chest, candle, note, matches
+Also, you can always type "go" + a direction (North/South/East/West)
 
-CONGRATULATIONS! YOU BEAT THE ESCAPE ROOM.
+You find yourself in a large foyer. There is a door to the north. To the west is a bench against the wall.
+To the east is a chest on the floor. In the center of the room is a large candle. The candle is unlit
+
+>> open chest
+
+You open the chest. There is a box of matches inside.
+You have 29 turns left.
+
+>> get matches
+
+You take the box of matches out of the chest.
+You have 28 turns left.
+
+>> light candle
+
+You light the candle, and fierce wind blows through the room, extinguishing the match in your 
+hand, but making the candle burn brighter. You hear a loud metal grinding sound from the north.
+You have 27 turns left.
+
+>> open door
+
+The north door is open.
+You have 26 turns left.
+
+>> go north
+
+You leave the foyer, the door behind you closes with a loud slam, and you hear the locking 
+mechanism relock the door. You cannot return to the foyer.
+The door is locked.
+You have 25 turns left.
+
+In this level, you can use these verbs: 
+open, read, write, look, get
+In this level, you can use these nouns: 
+door, room, shelves, book, pen, scroll
+
+In the library there are stacks of books lining the shelves, and there is a desk, a pen, and a scroll.
+There is another locked door to the north.
+
+>> look shelves
+
+When you search te bookshelf, there is an open book on one shelf titled 
+"The Autobiography of..." with the rest of the title empty.
+You have 24 turns left.
+
+>> get pen
+
+You pick up the pen
+You have 23 turns left.
+
+>> get book
+
+You pick up the book
+You have 22 turns left.
+
+>> write book
+
+Write your name:Pranav Kalra
+You hear something move.
+You have 21 turns left.
+
+>> open door
+
+The door opens.
+You have 20 turns left.
+
+>> go north
+
+You leave the library behind you and the door shuts and locks.
+You have 19 turns left.
+
+In this level, you can use these verbs: 
+open, read, play
+In this level, you can use these nouns: 
+music, trumpet, piano, drum
+
+In the conservatory, there is a large door to the north that is locked. There are three instruments here,
+a trumpet, a drum, and a piano. There is a piece of sheet music on a stand in the center of the room.
+
+>> play trumpet
+
+*Trumpet Noises*
+You have 18 turns left.
+
+>> play piano
+
+♪♪♪♪♫♫♫♫ ♫♪♫♪♫ ♫♫♪♪♪ ♪ ♫
+You have 17 turns left.
+
+>> play drum
+
+The ting goes skrrrahh, pap, pap, ka-ka-ka Skidiki-pap-pap, and a pu-pu-pudrrrr-boom
+Something happe--
+You have 16 turns left.
+
+>> open door
+
+You open the door and you take a big step out.
+You have 15 turns left.
+CONGRATULATIONS! YOU ESCAPED
 
 Process finished with exit code 0
