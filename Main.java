@@ -22,6 +22,7 @@ public class Main {
     public static boolean piano = false;
     public static boolean drum = false;
     public static boolean door3 = false;
+    public static boolean door3Opened = false;
 
     public static int count = 30;
     public static Scanner scan;
@@ -39,7 +40,7 @@ public class Main {
         System.out.println();
 
         System.out.println("You find yourself in a large foyer. There is a door to the north. To the west is a bench against the wall.\n" +
-                "To the east is a chest on the floor. In the center of the room is a large candle. The candle is unlit");
+                "To the east is a chest on the floor. In the center of the room is a large candle. The candle is unlit.");
 
         while(foyerSet == false) {
             foyer();
@@ -125,7 +126,7 @@ public class Main {
             case "look door":
             case "go door":
                 if (candle == false) {
-                    System.out.println("The door is locked");
+                    System.out.println("The door is locked.");
                 }
                 if (candle == true) {
                     System.out.println("The door to the north is closed, but unlocked.");
@@ -150,7 +151,7 @@ public class Main {
 
             case "open door":
                 if (candle == false) {
-                    System.out.println("The door is locked");
+                    System.out.println("The door is locked.");
                 }
                 if (candle == true) {
                     System.out.println("The north door is open.");
@@ -193,15 +194,18 @@ public class Main {
         test = scan.nextLine();
         System.out.println();
         switch (test) {
+            case "read scroll":
             case "look scroll":
                 System.out.println("The scroll says, \"Share your story.\"");
                 break;
 
+            case "look shelf":
             case "look shelves":
                 System.out.println("When you search te bookshelf, there is an open book on one shelf titled \n" +
                         "\"The Autobiography of...\" with the rest of the title empty.");
                 break;
 
+            case "look book":
             case "read book":
                 if (bookWritten == false) {
                     System.out.println("\"The Autobiography of...\"");
@@ -211,29 +215,27 @@ public class Main {
                 }
                 break;
 
+            case "look pen":
+                System.out.println("You see the pen.");
+                break;
+
             case "get pen":
-                System.out.println("You pick up the pen");
+                System.out.println("You pick up the pen.");
                 pen = true;
                 break;
 
-            case "get book":
-                System.out.println("You pick up the book");
-                book = true;
-                break;
-
-            case "write name":
             case "write book":
                 if (bookWritten == true) {
                     System.out.println("You have already written in the book.");
                 }
-                if (!bookWritten && pen && book) {
+                if (!bookWritten && pen) {
                     System.out.print("Write your name:");
                     name = scan.nextLine();
                     bookWritten = true;
                     door2 = true;
                     System.out.println("You hear something move.");
                 }
-                if (!pen || !book) {
+                if (!pen) {
                     System.out.println("With what?");
                 }
                 break;
@@ -293,24 +295,50 @@ public class Main {
                     break;
 
                 case "play piano":
-                    System.out.println("♪♪♪♪♫♫♫♫ ♫♪♫♪♫ ♫♫♪♪♪ ♪ ♫");
-                    piano = true;
-                    drum = false;
+                    if (piano) {
+                        System.out.println("You just played it though.");
+                        trumpet = false;
+                        piano = false;
+                        drum = false;
+                    }
+                    if (trumpet && !piano) {
+                        System.out.println("♪♪♪♪♫♫♫♫ ♫♪♫♪♫ ♫♫♪♪♪ ♪ ♫");
+                        piano = true;
+                        drum = false;
+                    }
+                    if (drum) {
+                        System.out.println("Hmmm... you really should have stuck with those piano lessons in 1st grade.");
+                    }
                     break;
 
                 case "play drum":
-                    System.out.println("The ting goes skrrrahh, pap, pap, ka-ka-ka Skidiki-pap-pap, and a pu-pu-pudrrrr-boom");
+                    if (trumpet && piano) {
+                        System.out.println("Da ting go skrrrahh, pap, pap, ka-ka-ka Skidiki-pap-pap, and a pu-pu-pudrrrr-boom");
+                    }
+                    else {
+                        System.out.println("First I bang the drum, then I bang your -- wait that's not right.");
+                    }
                     drum = true;
                     break;
 
                 case "look door":
                 case "open door":
                     if (door3) {
-                        System.out.println("You open the door and you take a big step out.");
-                        conservatorySet = true;
+                        System.out.println("You open the door, anxious to what is about to happen.");
+                        door3Opened = true;
                     }
                     if (!door3) {
                         System.out.println("It's locked.");
+                    }
+                    break;
+
+                case "go north":
+                    if (door3Opened) {
+                        System.out.println("You brace yourself and take a big step out.");
+                        conservatorySet = true;
+                    }
+                    else {
+                        System.out.println("There's a locked door in front of you.");
                     }
                     break;
 
@@ -322,6 +350,7 @@ public class Main {
 
                 case "bypass":
                     conservatorySet = true;
+                    break;
 
             }
             if (trumpet && piano && drum) {
@@ -337,7 +366,7 @@ public class Main {
 
     public static void counter() {
         count --;
-        System.out.println("You have " + count + " turns left.");
+        System.out.printf("You have %d %s left.%n", count, count==1?"turn":"turns");
         if (count == 0) {
             System.out.println("You failed.");
             System.exit(0);
@@ -346,8 +375,8 @@ public class Main {
 
 //SHORTEST ANSWERS
 //open chest, get matches, light candle, open door, go north
-//look shelves, get pen, get book, write book, open door, go north
-//play trumpet, play piano, play drum, open door
+//get pen, write book, open door, go north
+//play trumpet, play piano, play drum, open door, go north
 
 
 
