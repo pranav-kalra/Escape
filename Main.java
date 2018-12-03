@@ -201,8 +201,13 @@ public class Main {
 
             case "look shelf":
             case "look shelves":
-                System.out.println("When you search te bookshelf, there is an open book on one shelf titled \n" +
-                        "\"The Autobiography of...\" with the rest of the title empty.");
+                System.out.println("When you search the bookshelf, there is an open book on one shelf titled:");
+                if (bookWritten == false) {
+                        System.out.println("\"The Autobiography of...\" with the rest of the title empty.");
+                }
+                else {
+                    System.out.println("\"The Autobiography of Pranav Kalra\"");
+                }
                 break;
 
             case "look book":
@@ -230,7 +235,7 @@ public class Main {
                 }
                 if (!bookWritten && pen) {
                     System.out.print("Write your name:");
-                    name = scan.nextLine();
+                    System.out.println(" Pranav Kalra");
                     bookWritten = true;
                     door2 = true;
                     System.out.println("You hear something move.");
